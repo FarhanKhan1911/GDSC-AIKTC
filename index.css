@@ -1964,9 +1964,14 @@ h3 {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
-  margin-bottom: 30px;
+  padding: 50px;
 }
-
+@media(max-width: 1197px){
+  .portfolio .portfolio-item {
+    margin-bottom: 30px;
+    padding: 10px;
+  }
+}
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 25px auto;
