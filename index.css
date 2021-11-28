@@ -272,6 +272,7 @@ body{
     padding: 10px 30px;
     display: inline-block;
     border: 1px solid #000;
+    border-radius: 30px;
     text-decoration: none;
     cursor: pointer;
     transform: 0.5 ease-in-out;
